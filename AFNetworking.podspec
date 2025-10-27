@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'AFNetworking/AFNetworking.h'
   
   s.resource_bundles = {
-    "AFNetworking" => 'AFNetworking/PrivacyInfo.xcprivacy'
+    "AFNetworking" => 'AFNetworking/AFNetworking/PrivacyInfo.xcprivacy'
   }
 
   s.subspec 'Serialization' do |ss|
